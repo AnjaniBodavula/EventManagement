@@ -1,0 +1,7 @@
+CREATE TABLE events(
+	serialnumber CHAR(4) PRIMARY KEY,
+	title VARCHAR(20) NOT NULL,
+	location VARCHAR(20) NOT NULL,
+	cost DECIMAL(7,2) NOT NULL,
+	startdate date NOT NULL
+);
